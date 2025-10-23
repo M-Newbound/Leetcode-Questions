@@ -13,3 +13,5 @@ class Solution:
 
 
 # perfect binary tree, use existing next pointers level by level, O(n) time
+
+# rereading old solutions, nothing to change here
