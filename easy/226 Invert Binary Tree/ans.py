@@ -14,3 +14,5 @@ class Solution:
 
 
 # recursive swap, O(n) time
+
+# left a note here for future me
