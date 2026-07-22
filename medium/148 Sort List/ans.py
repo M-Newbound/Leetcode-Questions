@@ -8,6 +8,7 @@ class Solution:
             slow = slow.next
             fast = fast.next.next
         mid = slow.next
+        slow.next = None
 
         left = self.sortList(head)
         right = self.sortList(mid)
@@ -22,5 +23,6 @@ class Solution:
             tail = tail.next
         tail.next = left or right
         return dummy.next
+
 
 # merge sort on a linked list, O(nlogn) time
